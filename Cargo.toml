@@ -1,0 +1,13 @@
+[package]
+name = "crab-os"
+version = "0.1.0"
+authors = ["will.zegers"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+
